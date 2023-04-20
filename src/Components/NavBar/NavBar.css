@@ -22,15 +22,15 @@
 .navbar-button:hover {
   background-color: var(--secondaryColor);
   cursor: pointer;
-  color: var(--mainColorLight);
+  /* color: var(--mainColorLight); */
 }
 
 .navbar-buttons-container {
-  margin-top: 20pt;
+  margin-top: 10pt;
   display: flex;
   justify-content: center;
   gap: 20pt;
-  margin-bottom: 20pt;
+  margin-bottom: 10pt;
 }
 
 @media only screen and (max-width: 1200px) {
@@ -45,14 +45,11 @@
 @media only screen and (max-width: 1024px) {
   .navbar-button {
     min-width: 100%;
-    /* font-size: 17pt; */
     font-size: 30pt;
-    /* height: 30pt; */
+    margin: 1pt;
   }
   .navbar-buttons-container {
-    margin-top: 10pt;
-    gap: 2pt;
-    margin-bottom: 10pt;
+    gap: 0pt;
     flex-direction: column;
   }
 }

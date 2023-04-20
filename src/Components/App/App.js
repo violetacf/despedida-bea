@@ -5,7 +5,7 @@ import NavBar from '../NavBar/NavBar';
 import Friday from '../Days/Friday';
 import Saturday from '../Days/Saturday';
 import Sunday from '../Days/Sunday';
-import Welcome from '../Days/Welcome';
+import Empty from '../Days/Empty';
 
 function App() {
   return (
@@ -14,7 +14,7 @@ function App() {
         <Header />
         <NavBar />
         <Routes>
-          <Route path="/" element={<Welcome />} />
+          <Route path="/" element={<Empty />} />
           <Route path="friday" element={<Friday />} />
           <Route path="saturday" element={<Saturday />} />
           <Route path="sunday" element={<Sunday />} />

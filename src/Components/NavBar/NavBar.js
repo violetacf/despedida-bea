@@ -4,10 +4,6 @@ export default function NavBar() {
   return (
     <div className="navbar-container">
       <div className="navbar-buttons-container">
-        <a href="/">
-          {' '}
-          <button className="navbar-button"> Despedida Bea </button>
-        </a>
         <a href="/friday">
           {' '}
           <button className="navbar-button"> Friday </button>

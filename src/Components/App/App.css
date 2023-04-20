@@ -1,3 +1,23 @@
 .app-container {
   text-align: center;
 }
+
+:root {
+  --textColor: #000000;
+  --secondaryColor: #f9677e;
+  --mainColor: #e13f94;
+  --mainColorLight: #ffdde1;
+}
+
+* {
+  padding: 0;
+  margin: 5pt;
+  font-family: 'Poppins', sans-serif;
+  /* font-family: 'Ganyo', sans-serif; */
+  /* font-family: 'Larsseit', sans-serif; */
+
+  font-size: 17pt;
+  /* font-size: 20pt; */
+  color: var(--textColor);
+  background-color: var(--mainColorLight);
+}
